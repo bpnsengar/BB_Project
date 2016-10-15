@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Augbatch" duration-ms="38097" started-at="2016-10-15T12:19:51Z" finished-at="2016-10-15T12:20:29Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Senario_Search.invalid_search_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_Component.Senario_Search@3234e239]" name="invalid_search_test" class="Scenario_Component.Senario_Search"/>
+        <method signature="Senario_Search.valid_search_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_Component.Senario_Search@3234e239]" name="valid_search_test" class="Scenario_Component.Senario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="RegSet1" duration-ms="38097" started-at="2016-10-15T12:19:51Z" finished-at="2016-10-15T12:20:29Z">
+      <class name="Scenario_Component.Senario_Search">
+        <test-method status="PASS" signature="invalid_search_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_Component.Senario_Search@3234e239]" name="invalid_search_test" duration-ms="37447" started-at="2016-10-15T17:49:51Z" data-provider="dp_InValidSearch" finished-at="2016-10-15T17:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ghghhghg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sorry! There are no products to display.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_search_test -->
+      </class> <!-- Scenario_Component.Senario_Search -->
+    </test> <!-- RegSet1 -->
+  </suite> <!-- Augbatch -->
+</testng-results>
